@@ -13,11 +13,10 @@ import { VueDraggable } from 'vue-draggable-plus';
 import * as Dates from 'date-fns';
 import * as FloatingVue from 'floating-vue'
 import MediaQuery from './media-query'
-import { vMaska } from 'maska'
+import { vMaska } from 'maska/vue'
 import { VueRecaptcha } from 'vue-recaptcha';
 import Slider from '@vueform/slider'
 import VueQrcode from '@chenfengyuan/vue-qrcode';
-
 
 
 const app = Vue.createApp({})
